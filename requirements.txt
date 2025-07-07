@@ -1,0 +1,27 @@
+# Core Framework
+Django>=4.2,<5.0
+
+# REST API Support
+djangorestframework>=3.14.0
+django-filter>=23.3
+
+# PostgreSQL Support
+psycopg2-binary>=2.9.9
+
+# Environment Variable Management
+django-environ>=0.10.0
+
+# Fake Data Generation
+Faker>=24.4.0
+
+# API Documentation (Swagger)
+drf-yasg>=1.21.7
+
+# JWT Authentication (optional, for token-based auth)
+djangorestframework-simplejwt>=5.3.1
+
+# Optional: Charts (if using Django templates + Chart.js)
+# No Python package needed for Chart.js – it's client-side
+
+# Optional: CORS support (if frontend connects separately)
+django-cors-headers>=4.3.1
